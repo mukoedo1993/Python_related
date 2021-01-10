@@ -53,4 +53,15 @@ SyntaxError: invalid syntax
 >>> id(copy2)
 140590918197312
 >>> #users, copy1 and copy2 all have different ids.
->>> 
+>>> #users, copy1 and copy2 all have different ids.
+>>> lst1=[1, 5, 6, 7, 10]
+>>> lst2=list(lst1)
+>>> id(lst1)
+140590918197760
+>>> id(lst2)
+140590918198656
+>>> lst3= lst2
+>>> id(lst3)
+140590918198656
+>>> #Only assignment directly is pass by reference, use the ...(...)
+
