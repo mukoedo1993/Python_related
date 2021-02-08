@@ -1,0 +1,19 @@
+(base) zcw@mukoedo1993:~/python_related_clone/Python_related/python_official_tutorial/chap6_Modules/pyc_how_to_do$ python3
+Python 3.8.3 (default, Jul  2 2020, 16:21:59) 
+[GCC 7.3.0] :: Anaconda, Inc. on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import py_compile
+>>> py_compile.compile("test.py")
+'__pycache__/test.cpython-38.pyc'
+>>> #Here we got the pycache file manually...
+>>> __pycache__/test.cpython-38.pyc
+  File "<stdin>", line 1
+    __pycache__/test.cpython-38.pyc
+                                ^
+SyntaxError: invalid syntax
+>>> quit()
+(base) zcw@mukoedo1993:~/python_related_clone/Python_related/python_official_tutorial/chap6_Modules/pyc_how_to_do$ cd __pycache__
+(base) zcw@mukoedo1993:~/python_related_clone/Python_related/python_official_tutorial/chap6_Modules/pyc_how_to_do/__pycache__$ python test.cpython-38.pyc
+3
+
+

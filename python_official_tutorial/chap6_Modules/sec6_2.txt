@@ -1,0 +1,28 @@
+"""
+Python comes with a library of std. modules, described in a separate
+document, the Python Library Reference ("Library Reference" hereafter).
+Some modules are built into the interpreter; these provide access to 
+operations that are not part of the language but are nevertheless built in, either for
+efficiency or to provide access to operating system primitives such as system calls.
+"""
+
+
+"""
+(base) zcw@mukoedo1993:~/python_related_clone/Python_related/python_official_tutorial/chap6_Modules$ python3
+Python 3.8.3 (default, Jul  2 2020, 16:21:59) 
+[GCC 7.3.0] :: Anaconda, Inc. on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import sys
+>>> sys.ps1
+'>>> '
+>>> sys.ps2
+'... '
+>>> #sys.ps1 is the 1st prompt, sys.ps2 is the 2nd prompt.
+>>> sys.ps1='NIMASILE'
+NIMASILEsys.ps1='>>> '
+>>> sys.path
+['', '/home/zcw/anaconda3/lib/python38.zip', '/home/zcw/anaconda3/lib/python3.8', '/home/zcw/anaconda3/lib/python3.8/lib-dynload', '/home/zcw/anaconda3/lib/python3.8/site-packages']
+>>> # The variable sys.path is a list of strings that determines the interpreter's search path
+>>> #for modules. It is initialized to a default path taken from the environment variable PYTHONPATH,or from a built-in default if PYTHONPATH is not set. You can modify it using std. list operations.
+>>> 
+"""
