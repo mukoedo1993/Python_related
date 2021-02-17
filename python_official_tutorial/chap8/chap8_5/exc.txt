@@ -1,0 +1,31 @@
+(base) zcw@mukoedo1993:~/python_related_clone/Python_related/python_official_tutorial/chap8/chap8_5$ python
+Python 3.8.3 (default, Jul  2 2020, 16:21:59) 
+[GCC 7.3.0] :: Anaconda, Inc. on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> raise RuntimeError from exc
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'exc' is not defined
+>>> exc =None
+>>> raise RuntimeError from exc
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+RuntimeError
+>>> class exc(Exception):
+... pass
+  File "<stdin>", line 2
+    pass
+    ^
+IndentationError: expected an indented block
+>>> class exc1(Exception):
+...     pass
+... 
+>>> raise RuntimeError from exc1
+__main__.exc1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+RuntimeError
+>>> 
