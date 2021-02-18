@@ -1,4 +1,4 @@
-bookmark: CHAP9_3_1 まで unread
+bookmark: CHAP9_6 まで unread
 
 
 https://docs.python.org/3/tutorial/
