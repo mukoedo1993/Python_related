@@ -1,4 +1,4 @@
-bookmark: CHAP9_6 まで unread
+bookmark: finished. I need to do some more useful things, now.
 
 
 https://docs.python.org/3/tutorial/
